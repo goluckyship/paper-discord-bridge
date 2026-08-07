@@ -1,0 +1,16 @@
+{
+  "name": "paper-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that bridges with a Paper Minecraft plugin over HTTP.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/deployCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}

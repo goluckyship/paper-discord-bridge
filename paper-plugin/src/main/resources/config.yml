@@ -1,0 +1,8 @@
+# URL of the Discord bot's HTTP endpoint that receives server events.
+bot-url: "http://localhost:8080/event"
+
+# Port the plugin's HTTP API listens on (queried by the bot for /players and /count).
+http-port: 8787
+
+# Shared secret. MUST match the bot's AUTH_TOKEN. Used to authenticate both directions.
+auth-token: "changeme"

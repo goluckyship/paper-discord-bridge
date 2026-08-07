@@ -1,0 +1,6 @@
+name: PaperDiscordBridge
+version: 1.0.0
+main: com.serverstack.bridge.BridgePlugin
+api-version: '1.21'
+author: ServerStack
+description: Bridges Paper server events and player data to a Discord bot over HTTP.
